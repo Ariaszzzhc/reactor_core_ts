@@ -6,6 +6,11 @@
 export type Runnable = () => void;
 
 /**
+ * simple consumer type alias
+ */
+export type Consumer<T> = (t: T) => void;
+
+/**
  * Periodic execution options
  */
 export interface ScheduleOptions {

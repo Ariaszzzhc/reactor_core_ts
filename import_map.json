@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "reactive_streams": "https://deno.land/x/reactive_streams@v1.0.0/mod.ts",
+    "./": "./"
+  }
+}
